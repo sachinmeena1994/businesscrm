@@ -9,9 +9,9 @@ export default function Navbar() {
 const navItems = [
   { name: "Home", path: "/" },
   { name: "About", path: "/about" },
-  { name: "Services", path: "/#services" },
-  { name: "Fleet", path: "/#fleet" },
-  { name: "Contact", path: "/#contact" },
+  { name: "Services", path: "/services" },
+  { name: "Our Fleet", path: "/fleet" },
+  { name: "Contact", path: "/contact" },
 ];
   // Detect scroll
   useEffect(() => {
@@ -24,10 +24,10 @@ const navItems = [
   }, []);
 
   return (
-    <nav
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 
-      ${scrolled ? "bg-black/70 backdrop-blur-md shadow" : "bg-transparent"}`}
-    >
+<nav
+  className={`fixed  left-0 w-full z-50 transition-all duration-300 
+  ${scrolled ? "bg-black/70 backdrop-blur-md shadow" : "bg-transparent"}`}
+>
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         
         {/* Logo */}
