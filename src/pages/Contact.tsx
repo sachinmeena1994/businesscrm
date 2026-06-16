@@ -108,7 +108,7 @@ export default function ContactPage() {
               />
 
               <textarea
-                rows="5"
+                rows={5}
                 placeholder="Your Message"
                 className="p-4 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
               ></textarea>

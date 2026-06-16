@@ -58,7 +58,7 @@ export default function Contact() {
             />
 
             <textarea
-              rows="4"
+              rows={4}
               placeholder="Your Message"
               className="w-full border p-3 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
             />

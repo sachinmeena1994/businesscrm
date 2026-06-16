@@ -6,7 +6,7 @@ import AboutPage from "./pages/About";
 
 function App() {
   return (
-    <Router>
+    <Router  basename="/businesscrm">
       <Navbar />
       
       <Routes>
